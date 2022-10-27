@@ -8,4 +8,4 @@ En esta sección procederemos a mostrar como descargar el IDE de Eclipse, en cas
 
 2. Luego de seleccionar la opción de su preferencia, comenzará la descarga y lo redirigirá a la siguiente pantalla de donación, donde podrá proceder al siguiente paso de instalación.
 
-![](https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img03.png)
+![](https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img03.png) 

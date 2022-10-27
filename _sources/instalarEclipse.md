@@ -14,7 +14,7 @@ En esta sección procederemos a mostrar como instalar el IDE de Eclipse, en caso
 
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img06.png" width="400"> </div>
 
-4.Cuando acabe de instalar, podremos ejecutar el IDE utilizando el botón **LAUNCH**.
+4. Cuando acabe de instalar, podremos ejecutar el IDE utilizando el botón **LAUNCH**.
 
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img07.png" width="400"> </div>
 
@@ -30,4 +30,5 @@ En esta sección procederemos a mostrar como instalar el IDE de Eclipse, en caso
 
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img10.png" width="450"> </div>
 
-Ya con esto el IDe está listo para ser utilizado para lo que se necesite.
+---
+Ya con esto el IDE está listo para ser utilizado para lo que se necesite. 
