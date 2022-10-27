@@ -2,22 +2,20 @@
 En esta sección procederemos a mostrar como instalar los software de modelado en el IDE de Eclipse. Para ello el único requisito es tener acceso a internet.
 
 ---
-1. Una vez tengamos el IDE de Eclipse abierto y funcionando correctamente, iremos a la barra superior del IDE y buscaremos la opción "**Help**", que desplegará una cinta de opciones de las cuales presionaremos "**Install New Software...**".
-
+1. Una vez tengamos el IDE de Eclipse abierto y funcionando correctamente, iremos a la barra superior del IDE y buscaremos la opción "**Help**", que desplegará una cinta de opciones de las cuales presionaremos "**Install New Software...** ".
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img11.png" width="450"> </div>
 
-2.Al realizar el paso anterior, se abrirá la siguiente pestaña de *Install*, en la cual desplegaremos la cinta de opciones de "**Work with**", y seleccionaremos "**--All Available Sites--**".
-
+2. Al realizar el paso anterior, se abrirá la siguiente pestaña de *Install*, en la cual desplegaremos la cinta de opciones de "**Work with**", y seleccionaremos "**--All Available Sites--**".
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img13.png" width="450"> </div>
 
 3. Con ello se cargarán varias categorías dentro del cuadro inferior a la cinta de opciones, donde tendremos que buscar primero la opción **Modeling**, presionar la flecha a su izquierda para desplegar los programas pertenecientes y buscarlos dos siguientes:
-- Ecore Diagram Editor (SDK)
-- EMF - Eclipse Modeling Framework SDK
+    - Ecore Diagram Editor (SDK)
+    - EMF - Eclipse Modeling Framework SDK
 
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img15.png" width="450"> </div>
 
 4. Ahora en el mismo cuadro buscaremos en las categorías la opción **Application Development Frameworks**, donde tendremos que precionar la flecha para desplegar los programas y buscar el siguiente:
-- Eclipse Project SDK
+    - Eclipse Project SDK
 
 <div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img16.png" width="450"> </div>
 
