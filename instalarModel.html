@@ -283,12 +283,36 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#crear-un-nuevo-proyecto">
+   Crear un nuevo proyecto
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -300,6 +324,19 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#crear-un-nuevo-proyecto">
+   Crear un nuevo proyecto
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -309,6 +346,79 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="instalar-herramientas-de-modelado">
 <h1>Instalar herramientas de modelado<a class="headerlink" href="#instalar-herramientas-de-modelado" title="Permalink to this headline">#</a></h1>
+<p>En esta sección procederemos a mostrar como instalar los software de modelado en el IDE de Eclipse. Para ello el único requisito es tener acceso a internet.</p>
+<hr class="docutils" />
+<ol class="simple">
+<li><p>Una vez tengamos el IDE de Eclipse abierto y funcionando correctamente, iremos a la barra superior del IDE y buscaremos la opción “<strong>Help</strong>”, que desplegará una cinta de opciones de las cuales presionaremos “<strong>Install New Software…</strong>”.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img11.png" width="450"> </div>
+<p><a class="reference external" href="http://2.Al">2.Al</a> realizar el paso anterior, se abrirá la siguiente pestaña de <em>Install</em>, en la cual desplegaremos la cinta de opciones de “<strong>Work with</strong>”, y seleccionaremos “<strong>–All Available Sites–</strong>“.</p>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img13.png" width="450"> </div>
+<ol class="simple">
+<li><p>Con ello se cargarán varias categorías dentro del cuadro inferior a la cinta de opciones, donde tendremos que buscar primero la opción <strong>Modeling</strong>, presionar la flecha a su izquierda para desplegar los programas pertenecientes y buscarlos dos siguientes:</p></li>
+</ol>
+<ul class="simple">
+<li><p>Ecore Diagram Editor (SDK)</p></li>
+<li><p>EMF - Eclipse Modeling Framework SDK</p></li>
+</ul>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img15.png" width="450"> </div>
+<ol class="simple">
+<li><p>Ahora en el mismo cuadro buscaremos en las categorías la opción <strong>Application Development Frameworks</strong>, donde tendremos que precionar la flecha para desplegar los programas y buscar el siguiente:</p></li>
+</ol>
+<ul class="simple">
+<li><p>Eclipse Project SDK</p></li>
+</ul>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img16.png" width="450"> </div>
+<ol class="simple">
+<li><p>Presionaremos <strong>Next &gt;</strong>, para continuar.</p></li>
+<li><p>En la siguiente pantalla nos aparecerá el detalle de los 3 softwares seleccionados para instalar, verificaremos que estén correctos y presionaremos <strong>Next &gt;</strong> nuevamente.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img17.png" width="450"> </div>
+<ol class="simple">
+<li><p>En esta pantalla aceptaremos los términos y condiciones y continuaremos presionando <strong>Finish</strong></p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img18.png" width="450"> </div>
+<ol class="simple">
+<li><p>Las instalaciones se realizarán en segundo plano, como se puede observar en el icono del programa.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img19.png" width="200"> </div>
+<ol class="simple">
+<li><p>Luego de esperar un momento, aparecerá el siguiente cuadro de “<strong>Software Update</strong>”, donde presionaremos <strong>Restart Now</strong> para terminar la instalación y habilitarla.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img20.png" width="450"> </div>
+<section id="crear-un-nuevo-proyecto">
+<h2>Crear un nuevo proyecto<a class="headerlink" href="#crear-un-nuevo-proyecto" title="Permalink to this headline">#</a></h2>
+<ol class="simple">
+<li><p>Con esto ya está todo listo para empezar a trabajar en un nuevo proyecto utilizando el <strong>Ecore Modeling Project</strong>, y presionar <strong>Next &gt;</strong>.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img21.png" width="450"> </div>
+<ol class="simple">
+<li><p>En la siguiente pantalla debemos asignar un nuevo nombre al proyecto, y luego presionar <strong>Next &gt;</strong>.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img22.png" width="450"> </div>
+<ol class="simple">
+<li><p>Aparecerá otra pantalla, donde nuevamente presionaremos <strong>Next &gt;</strong>.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img23.png" width="450"> </div>
+<ol class="simple">
+<li><p>En la siguiente pantalla comprobaremos que esté habilitado “<strong>Desing</strong>” y presionaremos <strong>Finish</strong> para crear el proyecto.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img24.png" width="450"> </div>
+<ol class="simple">
+<li><p>Aparecerá una ventana de mensaje con el título “<strong>Open Associated Perspective?</strong>”, en la cual presionaremos <strong>Open Perspective</strong>.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img25.png" width="450"> </div>
+<ol class="simple">
+<li><p>Aparecerá una barra a cargar el proyecto.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img26.png" width="450"> </div>
+<ol class="simple">
+<li><p>Y luego se abrirá el proyecto listo para trabajar en su modelado.</p></li>
+</ol>
+<div align="center"><img src="https://raw.githubusercontent.com/AlberttMC/guiaeclipse/main/ImagesEclipse/img27.png" width="450"> </div>
+<hr class="docutils" />
+<p><em>Nota: Más adelante se planea añadir un pequeño ejemplo de como utilizar este Ecore Modeling Project</em></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
